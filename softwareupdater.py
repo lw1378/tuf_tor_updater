@@ -20,6 +20,10 @@ Updated 1/23/2009 use servicelogger to log errors - Xuanhua (Sean)s Ren
 import sys
 import os
 
+import tuf.interposition
+
+tuf.interposition.configure()
+
 # AR: Determine whether we're running on Android
 try:
   import android
@@ -169,6 +173,7 @@ def get_file_hash(filename):
 # We'll use this to get a file.   If it doesn't download in a reasonable time, 
 # we'll fail. (BUG: doesn't do this yet.   I use timeouts, but they don't
 # always work)
+@tuf.interposition.open_url
 def safe_download(serverpath, filename, destdir, filesize):
   # TODO: filesize isn't being used.
   # TODO: raise an RsyncError from here if the download fails instead of
