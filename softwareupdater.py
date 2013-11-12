@@ -22,7 +22,7 @@ import os
 
 import tuf.interposition
 
-tuf.interposition.configure()
+#tuf.interposition.configure()
 
 # AR: Determine whether we're running on Android
 try:
