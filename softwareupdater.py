@@ -59,6 +59,13 @@ import harshexit  # Used for portablekill
 import portable_popen
 
 
+import tuf.interposition
+from tuf.interposition import urllib_tuf
+
+basic_tuf_directory = os.path.dirname(__file__)
+tuf_interposition_json = os.path.join(basic_tuf_directory, 'tuf.interposition.json')
+tuf.interposition.configure(filename=tuf_interposition_json, parent_repository_directory=basic_tuf_directory)
+
 # Import servicelogger to do logging
 import servicelogger
 
@@ -173,13 +180,12 @@ def get_file_hash(filename):
 # We'll use this to get a file.   If it doesn't download in a reasonable time, 
 # we'll fail. (BUG: doesn't do this yet.   I use timeouts, but they don't
 # always work)
-@tuf.interposition.open_url
 def safe_download(serverpath, filename, destdir, filesize):
   # TODO: filesize isn't being used.
   # TODO: raise an RsyncError from here if the download fails instead of
   #       returning True/False.
   try:
-    urllib.urlretrieve(serverpath+filename,destdir+filename)
+    urllib_tuf.urlretrieve(serverpath+filename,destdir+filename)
     return True
 
   except Exception,e:

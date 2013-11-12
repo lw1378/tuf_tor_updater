@@ -1,0 +1,28 @@
+{
+ "signatures": [
+  {
+   "keyid": "652c625e91278f854058255cdc7daa87e8b469d08f01e0f762430cff70307b42", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "55f2b7fca59ed520de9d549dc569b2aca18049251bfeaca21f68fbf8530e215408fceadc0bfeb8e6bc7a63bb39193961d89c723e0ecc7474f5dbe6b8281d89f649e7cf242b24d559def901a2be1924bfa9fe8dfd5611ff1d4e6782e6ccc14f61fd9d4e243acbad64fb4dbe4654a92859eb9b42bb5e9e68429908d0c1daa330c071a9eec40f8c8e7a86407be078d6ab260873873875147c6f0a8f08dedb17d0d1dfb9aba3e147bf7a4f4e47eb385584db679050ec729a97719119c4c33e006b6168e0bb6ea54ee712069e17e25734208672313e4c17c4e45ab4cbcfffb5ad3c16d382578e06900a8172d29992e4b157fe406b229d5f433530dfa9c6027c710562"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "expires": "2013-12-06 11:59:59 UTC", 
+  "targets": {
+   "metainfo": {
+    "hashes": {
+     "sha256": "46d51951f9d9ed5c2b9c5d1b48d9e02d6deda18876c6662ccf437ec1608251b1"
+    }, 
+    "length": 747
+   }, 
+   "tor-browser-2.3.25-14_en-US.exe": {
+    "hashes": {
+     "sha256": "b18ff5ef64621fe4f8d2a33ff123af9b07e91a94c11c59268386855678f887da"
+    }, 
+    "length": 27948761
+   }
+  }, 
+  "version": 2
+ }
+}
