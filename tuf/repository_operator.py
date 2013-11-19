@@ -11,7 +11,8 @@ class Make_repository:
     # init the state, clear all path directory
     base_path = os.path.dirname(__file__)
     path_path = os.path.join(base_path, "path")
-    shutil.rmtree(path_path)
+    if os.path.exists(path_path):
+      shutil.rmtree(path_path)
 
   def create_rsa_keys(self):
     print '>>> Creating RSA keys ...'
@@ -235,18 +236,19 @@ def help_info():
   print '--Help info--'
   print 'Usage: '
   print '"""'
-  print 'before generate new repository directory, you should make sure there'
-  print 'is a basic directory to put update file into, you could create by'
-  print 'yourself, or use "generate_file_dir" to generate a directory and put'
+  print 'before generate new repository directory, you should make sure that there'
+  print 'is a basic legal temp directory to put your update files, you could create by'
+  print 'yourself, or use "generate_file_dir" to generate a directory and just put your'
   print 'files into the directory.'
+  print '1. Generate TUF repository, syntax:'
+  print '$python repository_operator.py --generate_repository [directory_name]'
+  print '*** If directory_name is not given, '
+  print 'then use the default value -> targets_files.'
+  print '2. Generate temp copy directory, syntax:'
+  print '$python repository_operator.py --generate_file_dir [directory_name]'
+  print '*** If directory_name is not given, '
+  print 'then use the default value -> targets_files.'
   print '"""'
-  print 'python repository_operator.py --generate_repository [directory_name]'
-  print '*** If directory_name is not given, '
-  print 'then use the default value -> targets_files.'
-  print 'python repository_operator.py --generate_file_dir [directory_name]'
-  print '*** If directory_name is not given, '
-  print 'then use the default value -> targets_files.'
-  print '***'
 
 if __name__ == '__main__':
   if len(sys.argv) > 3:
