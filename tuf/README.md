@@ -11,7 +11,7 @@ Introduction
 * If directory_name is not given, then use the default value -> targets_files.
 * python repository_operator.py --generate_file_dir [directory_name]
 * If directory_name is not given, then use the default value -> targets_files.
-```
+```pthon
 laiwang@ubuntu:~/Documents/repository_tool$ python repository_operator.py --generate_repository targets_files
 /home/laiwang/Documents/repository_tool/cffi/vengine_cpy.py:166: UserWarning: reimporting '_cffi__x4cde7251x5995f8b6' might overwrite older definitions
   % (self.verifier.get_module_name()))
