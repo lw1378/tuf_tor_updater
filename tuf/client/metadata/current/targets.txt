@@ -1,0 +1,49 @@
+{
+ "signatures": [
+  {
+   "keyid": "809be04bb515bd9a3c995225c46d4d7c8e6d9857046c0e5b789c06dba639dcc1", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "6fab5231d9fbc1943d84df4335116ccfbb79ebab201a363770d5639b22f3e079d620c3162d96940d4c0bd80df41ec8720d8360e554ed8cbcb7082b63e6af9d598e9e7feda84dc64fa5cc984a3ec21cd5c0b0e70cdcc00ba5aa0205e4879173f12375c8fe27c36c7cc75ec3ba32122d8a27fd42321e0ef85c9cd5a4e648ee8971192182d991fd474c5b12f2f1ea172e68e15350c3e756b4a5b6ea79d3eeacadbdcb09943e152979e30b6dab9340495b4551ce1e40f43bff9f59cf88b1cb4eb3164cfe2ce09d131c2d8c341f11aa8803a20ad632ced0072b570eb890206ba06d5bf512da06d418d7be9cb7fb09a9ae67352d6c4b0f3b0b37aeae50fad7a1642f3989176336bc44287baf8540712c5ceddf7994d7c9ae62adf06d8d5b2e5c0cdb7219b95876221c3111335ab269ab73db85db959cfd9ccfcfa092f9437ba00e4daffd3b4c76d1a78b39312c663756e8ad0e5801a409862429aa85eec22ab1c7e7718916420fb82135e6cd6080cc748848de2870fc942f665b51bd6726e2b9f3569b"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "delegations": {
+   "keys": {
+    "5cb3242f6d163cbc5487d611d08ff704e66aed85470df083239a0f59cfe919c8": {
+     "keytype": "rsa", 
+     "keyval": {
+      "private": "", 
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxj9pyu4jV5+WTNuNB4zb\nrWkHz1AGcnmByU7jJZaFbOk2NBkHhK2JC60B0ZnN8Z31fpfaHxqZpYvvZUrnUoqI\n33cB6XM+L1T9mfgCqeujgCn/7teVa8ohvhlNyPXbMmrhzw0PT+Tqz0BX6c0kKrnk\nChftj+zwnzoGE5zxHDcR6ZkI/8dy1l0I9mhF34CjsfZKTh+d0ciwCWP3/YF0W+P4\nqi3sfbZWs9BIUphg+HvKHj0WgTJ8f3zsd0dxJEzamTRUyEkwLMZZAbxIdrrhsyow\n/MfZ/X58bs5NZkRsqNDtIIFqM/PcffnSgwXlbS01f+2B+0DmnscgM6k0recPB9cw\nDQIDAQAB\n-----END PUBLIC KEY-----"
+     }
+    }
+   }, 
+   "roles": [
+    {
+     "keyids": [
+      "5cb3242f6d163cbc5487d611d08ff704e66aed85470df083239a0f59cfe919c8"
+     ], 
+     "name": "targets/unclaimed", 
+     "paths": [], 
+     "threshold": 1
+    }
+   ]
+  }, 
+  "expires": "2014-02-19 04:42:23 UTC", 
+  "targets": {
+   "metainfo": {
+    "hashes": {
+     "sha256": "c66bf8214765ab667b5c8809b29d502d0a90b6333d7b803056ccff3d1903a59a"
+    }, 
+    "length": 743
+   }, 
+   "tor-browser-2.3.25-14_en-US.exe": {
+    "hashes": {
+     "sha256": "90cb210cadabd598fafc4b10f3c350718da13ed396593f99a878f59d76ce328a"
+    }, 
+    "length": 8548
+   }
+  }, 
+  "version": 1
+ }
+}

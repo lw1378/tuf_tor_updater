@@ -1,0 +1,19 @@
+{
+ "signatures": [
+  {
+   "keyid": "5cb3242f6d163cbc5487d611d08ff704e66aed85470df083239a0f59cfe919c8", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "a62b77bba66fb5d29779841e5590be55f1cb168d506e7ce6f623140e767571e960a6304cee73442ea1b897c4e35bb5428e649eed3e2f46d6b614c03f25899c9f15503babba7f434c8fbcd67dbf19528a4617a03ed1a88c2066642674d763dae317d4c8b07eed1d757372bb408c86dd8c4d5c526ab5630212eb2d1094aa310e45a3321c280911d28b8f92d36ac2131e99edf4139b61464a6fef5b73f5541408aa6bb30b7ca477a22c3b31df11b433c9128932adfddfa4d5a7c1230d757947a719907222a60d1ffdfb2cd545c580ff7e622e793ded61e42795280ccf4cbd34dff4920f7a91216fa90a59eeb13b177dd0e919eda31f773358d90016ad2870c94a66"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "delegations": {
+   "keys": {}, 
+   "roles": []
+  }, 
+  "expires": "2014-02-19 04:42:26 UTC", 
+  "targets": {}, 
+  "version": 1
+ }
+}
