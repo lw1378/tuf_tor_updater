@@ -1,0 +1,283 @@
+[2013-11-18 08:05:28,497 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged'
+[2013-11-18 08:05:28,497 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/targets'
+[2013-11-18 08:09:45,483 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged'
+[2013-11-18 08:09:45,483 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/targets'
+[2013-11-18 08:09:45,491 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpXlEgeC/metadata.staged/root.txt' with c94017b18282c8cff36087ed163d0fb476944d8d007f20bd8273898afb751e96
+[2013-11-18 08:09:45,500 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpXlEgeC/metadata.staged/root.txt' with 702125380aed5586cc803c2700377edf68ccfd724738fd6d2ca2bf4ddf7dfa79
+[2013-11-18 08:09:45,528 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /tmp/tmpXlEgeC/metadata.staged/root.txt
+[2013-11-18 08:09:45,529 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /tmp/tmpXlEgeC/metadata.staged/root.txt
+[2013-11-18 08:09:45,529 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with c94017b18282c8cff36087ed163d0fb476944d8d007f20bd8273898afb751e96
+[2013-11-18 08:09:45,538 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 702125380aed5586cc803c2700377edf68ccfd724738fd6d2ca2bf4ddf7dfa79
+[2013-11-18 08:09:45,575 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 08:09:45,575 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 08:21:47,059 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged'
+[2013-11-18 08:21:47,059 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/targets'
+[2013-11-18 08:21:47,064 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpNg2CZw/metadata.staged/root.txt' with 552b114ba968abfafc17d1e4d0064cbe2eed522d126eb5c912849c1090552d91
+[2013-11-18 08:21:47,073 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpNg2CZw/metadata.staged/root.txt' with 261ca71131807ecffaa51eb6b496b5fd91e4f03d6f3f4fd13aec0aa8338303f0
+[2013-11-18 08:21:47,101 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /tmp/tmpNg2CZw/metadata.staged/root.txt
+[2013-11-18 08:21:47,101 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /tmp/tmpNg2CZw/metadata.staged/root.txt
+[2013-11-18 08:21:51,578 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 552b114ba968abfafc17d1e4d0064cbe2eed522d126eb5c912849c1090552d91
+[2013-11-18 08:21:51,587 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 261ca71131807ecffaa51eb6b496b5fd91e4f03d6f3f4fd13aec0aa8338303f0
+[2013-11-18 08:21:51,618 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 08:21:51,618 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 08:21:51,619 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with e4cc6f0002916b250f56fa19f848083d7d23a8e3a3550aa8b79b4f15a56cb8d8
+[2013-11-18 08:21:51,644 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 08:21:51,644 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 08:21:51,644 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 08:21:51,644 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt.gz
+[2013-11-18 08:21:51,645 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 452546bd996909591ecd4b2a0216c86994e90a86917b385a0098230eaaa339ce
+[2013-11-18 08:21:51,670 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 08:21:51,671 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 08:21:51,671 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 08:21:51,671 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-18 08:21:51,672 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-18 08:21:51,672 UTC] [tuf.libtuf] [INFO][generate_timestamp_metadata:2602@libtuf.py] Including fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-18 08:21:51,672 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with 0258b296211c2312d5f74023be87f377937eef33fb947ee612ec1d6475fceecf
+[2013-11-18 08:21:51,704 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 08:21:51,704 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 08:38:21,344 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged'
+[2013-11-18 08:38:21,344 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/targets'
+[2013-11-18 08:38:21,349 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpGRy0Ap/metadata.staged/root.txt' with 88c7ec44112f05817d97a18f23fd5086b26dd52877b03d9b56de886ae533f25f
+[2013-11-18 08:38:21,358 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpGRy0Ap/metadata.staged/root.txt' with 714b3bdad6a7550a54dc402a6ea990c92022425f65753b6c4e38a86784a1d0f9
+[2013-11-18 08:38:21,386 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /tmp/tmpGRy0Ap/metadata.staged/root.txt
+[2013-11-18 08:38:21,386 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /tmp/tmpGRy0Ap/metadata.staged/root.txt
+[2013-11-18 08:38:25,469 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 08:38:25,470 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 08:38:25,471 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 08:38:25,471 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 08:38:25,489 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 88c7ec44112f05817d97a18f23fd5086b26dd52877b03d9b56de886ae533f25f
+[2013-11-18 08:38:25,499 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 714b3bdad6a7550a54dc402a6ea990c92022425f65753b6c4e38a86784a1d0f9
+[2013-11-18 08:38:25,534 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 08:38:25,534 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 08:38:25,692 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with a40c64c4d31a14a28dcd303b1c704207ef562465271401b66db3808da97431eb
+[2013-11-18 08:50:57,207 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged'
+[2013-11-18 08:50:57,207 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/targets'
+[2013-11-18 08:50:57,212 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpTvgzGn/metadata.staged/root.txt' with f6e2ab4bc2fd7c41a3ea9ef78aeb1bb64d2228cf98d4e8ba473f6c33c78e1c1d
+[2013-11-18 08:50:57,221 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpTvgzGn/metadata.staged/root.txt' with 6e6218f54b8c18d2a89c43734210506347904562f8d60eb917d8d5392badc994
+[2013-11-18 08:50:57,250 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /tmp/tmpTvgzGn/metadata.staged/root.txt
+[2013-11-18 08:50:57,250 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /tmp/tmpTvgzGn/metadata.staged/root.txt
+[2013-11-18 08:51:02,419 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 08:51:02,421 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 08:51:02,422 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 08:51:02,422 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 08:51:02,440 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with f6e2ab4bc2fd7c41a3ea9ef78aeb1bb64d2228cf98d4e8ba473f6c33c78e1c1d
+[2013-11-18 08:51:02,449 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 6e6218f54b8c18d2a89c43734210506347904562f8d60eb917d8d5392badc994
+[2013-11-18 08:55:41,328 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged'
+[2013-11-18 08:55:41,328 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/targets'
+[2013-11-18 08:55:41,333 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpcH3JrM/metadata.staged/root.txt' with d2e23a51f90944a04fa1f688d4563d507f3a6122bf19d9991c1d3c67046035a2
+[2013-11-18 08:55:41,342 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpcH3JrM/metadata.staged/root.txt' with 00f268a528ec5116f827a7a1c58618fbcb9bb2ab151a1260c7544797ac0dc72a
+[2013-11-18 08:55:41,370 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /tmp/tmpcH3JrM/metadata.staged/root.txt
+[2013-11-18 08:55:41,370 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /tmp/tmpcH3JrM/metadata.staged/root.txt
+[2013-11-18 08:55:47,408 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 08:55:47,409 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 08:55:47,409 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 08:55:47,410 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 08:55:47,429 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with d2e23a51f90944a04fa1f688d4563d507f3a6122bf19d9991c1d3c67046035a2
+[2013-11-18 08:55:47,438 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 00f268a528ec5116f827a7a1c58618fbcb9bb2ab151a1260c7544797ac0dc72a
+[2013-11-18 08:56:16,999 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 08:56:17,000 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 08:56:17,001 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 08:56:17,001 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 08:56:17,028 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with d2e23a51f90944a04fa1f688d4563d507f3a6122bf19d9991c1d3c67046035a2
+[2013-11-18 08:56:17,040 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 00f268a528ec5116f827a7a1c58618fbcb9bb2ab151a1260c7544797ac0dc72a
+[2013-11-18 09:02:58,309 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged'
+[2013-11-18 09:02:58,309 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/targets'
+[2013-11-18 09:02:58,315 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpWRrVZT/metadata.staged/root.txt' with cb4db7a2b20f697def0c5ea2a5cbc316b96ebae3b0358e219f47217d4f83b709
+[2013-11-18 09:02:58,323 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpWRrVZT/metadata.staged/root.txt' with 2bdcf466b3da101a54193b45dbf614a63ac1e536ec1fb41e9fe8b7f4c56fa5ac
+[2013-11-18 09:02:58,352 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /tmp/tmpWRrVZT/metadata.staged/root.txt
+[2013-11-18 09:02:58,352 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /tmp/tmpWRrVZT/metadata.staged/root.txt
+[2013-11-18 09:03:04,549 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with cb4db7a2b20f697def0c5ea2a5cbc316b96ebae3b0358e219f47217d4f83b709
+[2013-11-18 09:03:04,558 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 2bdcf466b3da101a54193b45dbf614a63ac1e536ec1fb41e9fe8b7f4c56fa5ac
+[2013-11-18 09:03:04,586 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 09:03:04,586 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 09:03:04,587 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with fda8aaa690db95839ea3e03456a53d284968dc862c641df707d2e8fff60addbf
+[2013-11-18 09:03:04,612 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 09:03:04,612 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 09:03:04,613 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 8d1842ce7dc9556368139991f525f2f0c62ea0aedd5d9893224d2b1caa507c8c
+[2013-11-18 09:03:04,638 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 09:03:04,638 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 09:03:04,638 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-18 09:03:04,638 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with 796231f7c89f641f775822bbad7a92530f6a5e947b8695b5ad5a6d74acf1588c
+[2013-11-18 09:03:04,663 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 09:03:04,663 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 09:03:26,171 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 09:03:26,172 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 09:03:26,173 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 09:03:26,173 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 09:03:26,201 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with cb4db7a2b20f697def0c5ea2a5cbc316b96ebae3b0358e219f47217d4f83b709
+[2013-11-18 09:03:26,212 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 2bdcf466b3da101a54193b45dbf614a63ac1e536ec1fb41e9fe8b7f4c56fa5ac
+[2013-11-18 09:03:26,248 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 09:03:26,248 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 09:03:26,249 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with fda8aaa690db95839ea3e03456a53d284968dc862c641df707d2e8fff60addbf
+[2013-11-18 09:03:26,277 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 09:03:26,277 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 09:03:26,278 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 8d1842ce7dc9556368139991f525f2f0c62ea0aedd5d9893224d2b1caa507c8c
+[2013-11-18 09:03:26,307 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 09:03:26,307 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 09:03:26,308 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-18 09:03:26,308 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with 796231f7c89f641f775822bbad7a92530f6a5e947b8695b5ad5a6d74acf1588c
+[2013-11-18 09:03:26,337 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 09:03:26,337 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 09:06:53,943 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 09:06:53,944 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 09:06:53,945 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 09:06:53,945 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 09:06:53,980 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with cb4db7a2b20f697def0c5ea2a5cbc316b96ebae3b0358e219f47217d4f83b709
+[2013-11-18 09:06:53,991 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 2bdcf466b3da101a54193b45dbf614a63ac1e536ec1fb41e9fe8b7f4c56fa5ac
+[2013-11-18 09:06:54,034 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 09:06:54,034 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 09:06:54,035 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with fda8aaa690db95839ea3e03456a53d284968dc862c641df707d2e8fff60addbf
+[2013-11-18 09:06:54,066 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 09:06:54,066 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 09:06:54,067 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 8d1842ce7dc9556368139991f525f2f0c62ea0aedd5d9893224d2b1caa507c8c
+[2013-11-18 09:06:54,096 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 09:06:54,096 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 09:06:54,097 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-18 09:06:54,097 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with 796231f7c89f641f775822bbad7a92530f6a5e947b8695b5ad5a6d74acf1588c
+[2013-11-18 09:06:54,126 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 09:06:54,126 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 09:29:46,022 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 09:29:46,024 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 09:29:46,024 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 09:29:46,024 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 09:30:17,712 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 09:30:17,714 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 09:30:17,714 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 09:30:17,715 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 09:31:35,314 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 09:31:35,316 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 09:31:35,316 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 09:31:35,317 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 09:31:35,872 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt' with 9a8ebf1d7609df22ed4b52c0a89058c69113fa926a8d7a5dbc0933edf0598ed8
+[2013-11-18 09:31:35,883 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt
+[2013-11-18 09:31:35,883 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt
+[2013-11-18 09:31:35,884 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt' with 9a8ebf1d7609df22ed4b52c0a89058c69113fa926a8d7a5dbc0933edf0598ed8
+[2013-11-18 09:31:35,895 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-18 09:31:35,895 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-18 09:31:35,895 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-18 09:31:35,895 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt.gz
+[2013-11-18 09:31:35,896 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with cb4db7a2b20f697def0c5ea2a5cbc316b96ebae3b0358e219f47217d4f83b709
+[2013-11-18 09:31:35,905 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 2bdcf466b3da101a54193b45dbf614a63ac1e536ec1fb41e9fe8b7f4c56fa5ac
+[2013-11-18 09:31:35,954 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 09:31:35,954 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-18 09:31:35,955 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with fda8aaa690db95839ea3e03456a53d284968dc862c641df707d2e8fff60addbf
+[2013-11-18 09:31:35,988 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 09:31:35,988 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-18 09:31:35,989 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 8d1842ce7dc9556368139991f525f2f0c62ea0aedd5d9893224d2b1caa507c8c
+[2013-11-18 09:31:36,019 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 09:31:36,020 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-18 09:31:36,020 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-18 09:31:36,020 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with 796231f7c89f641f775822bbad7a92530f6a5e947b8695b5ad5a6d74acf1588c
+[2013-11-18 09:31:36,049 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 09:31:36,050 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-18 09:33:20,660 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 09:33:20,661 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 09:33:20,662 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 09:33:20,662 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 09:40:47,208 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 09:40:47,215 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 09:40:47,220 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 09:40:47,221 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-18 09:40:47,221 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt)
+[2013-11-18 09:41:35,381 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-18 09:41:35,383 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-18 09:41:35,384 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-18 09:41:35,384 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-19 05:33:26,153 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged'
+[2013-11-19 05:33:26,154 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/laiwang/Documents/repository_tool/path/to/repository/targets'
+[2013-11-19 05:33:33,138 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 1517044c3871a11c55c45f1806ff9f30601bc0d2dc5e4af0ba6c947b3f918b89
+[2013-11-19 05:33:33,147 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 73da43875f1324e9ca1ddf3d20028354cd7974e8e384c7c09f2f981ef4f83cef
+[2013-11-19 05:33:33,176 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-19 05:33:33,176 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-19 05:33:33,176 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with 8eaf07884163653f66ec4fec3be0af58ce936bdc968305329e984b474330231c
+[2013-11-19 05:33:33,205 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:33,206 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:33,206 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:33,206 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt.gz
+[2013-11-19 05:33:33,207 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 519528ed88cde8f75b4419a775c0e54c1318089b7f3df1aed249ef6c562b3916
+[2013-11-19 05:33:33,233 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:33,233 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:33,233 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:33,233 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-19 05:33:33,235 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-19 05:33:33,235 UTC] [tuf.libtuf] [INFO][generate_timestamp_metadata:2602@libtuf.py] Including fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-19 05:33:33,235 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with a249c7914ae93436c73a7a8ce7147ec089fa1017f7c6bc756dc1c0c2017e852e
+[2013-11-19 05:33:33,262 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-19 05:33:33,262 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-19 05:33:43,424 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt)
+[2013-11-19 05:33:43,426 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt)
+[2013-11-19 05:33:43,426 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt)
+[2013-11-19 05:33:43,427 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt)
+[2013-11-19 05:33:43,448 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 1517044c3871a11c55c45f1806ff9f30601bc0d2dc5e4af0ba6c947b3f918b89
+[2013-11-19 05:33:43,458 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 73da43875f1324e9ca1ddf3d20028354cd7974e8e384c7c09f2f981ef4f83cef
+[2013-11-19 05:33:43,503 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-19 05:33:43,503 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-19 05:33:43,703 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with 8eaf07884163653f66ec4fec3be0af58ce936bdc968305329e984b474330231c
+[2013-11-19 05:33:43,733 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:43,733 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:43,734 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:43,734 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt.gz
+[2013-11-19 05:33:43,735 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 519528ed88cde8f75b4419a775c0e54c1318089b7f3df1aed249ef6c562b3916
+[2013-11-19 05:33:43,764 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:43,764 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:43,765 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:43,765 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-19 05:33:43,769 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-19 05:33:43,769 UTC] [tuf.libtuf] [INFO][generate_timestamp_metadata:2602@libtuf.py] Including fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-19 05:33:43,769 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with a249c7914ae93436c73a7a8ce7147ec089fa1017f7c6bc756dc1c0c2017e852e
+[2013-11-19 05:33:43,800 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-19 05:33:43,800 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-19 05:33:44,584 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt' with c35253dbe7e707cb86d7445c6d19b337d44dd0d6a7c13302b06fb4f85c74f67f
+[2013-11-19 05:33:44,599 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt
+[2013-11-19 05:33:44,599 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt
+[2013-11-19 05:33:44,599 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt' with c35253dbe7e707cb86d7445c6d19b337d44dd0d6a7c13302b06fb4f85c74f67f
+[2013-11-19 05:33:44,611 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-19 05:33:44,611 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-19 05:33:44,611 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-19 05:33:44,618 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt.gz
+[2013-11-19 05:33:44,625 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 1517044c3871a11c55c45f1806ff9f30601bc0d2dc5e4af0ba6c947b3f918b89
+[2013-11-19 05:33:44,635 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 73da43875f1324e9ca1ddf3d20028354cd7974e8e384c7c09f2f981ef4f83cef
+[2013-11-19 05:33:44,676 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-19 05:33:44,676 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-19 05:33:44,851 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with 8eaf07884163653f66ec4fec3be0af58ce936bdc968305329e984b474330231c
+[2013-11-19 05:33:44,883 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:44,884 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:44,885 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:44,885 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt.gz
+[2013-11-19 05:33:44,887 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 519528ed88cde8f75b4419a775c0e54c1318089b7f3df1aed249ef6c562b3916
+[2013-11-19 05:33:44,918 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:44,918 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:44,919 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:44,919 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-19 05:33:44,920 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-19 05:33:44,920 UTC] [tuf.libtuf] [INFO][generate_timestamp_metadata:2602@libtuf.py] Including fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-19 05:33:44,920 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with a249c7914ae93436c73a7a8ce7147ec089fa1017f7c6bc756dc1c0c2017e852e
+[2013-11-19 05:33:44,950 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-19 05:33:44,951 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-19 05:33:44,952 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt' with c35253dbe7e707cb86d7445c6d19b337d44dd0d6a7c13302b06fb4f85c74f67f
+[2013-11-19 05:33:44,964 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt
+[2013-11-19 05:33:44,964 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed.txt
+[2013-11-19 05:33:44,965 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt' with c35253dbe7e707cb86d7445c6d19b337d44dd0d6a7c13302b06fb4f85c74f67f
+[2013-11-19 05:33:44,976 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-19 05:33:44,976 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-19 05:33:44,977 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt
+[2013-11-19 05:33:44,977 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets/unclaimed/django.txt.gz
+[2013-11-19 05:33:44,977 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 1517044c3871a11c55c45f1806ff9f30601bc0d2dc5e4af0ba6c947b3f918b89
+[2013-11-19 05:33:44,988 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt' with 73da43875f1324e9ca1ddf3d20028354cd7974e8e384c7c09f2f981ef4f83cef
+[2013-11-19 05:33:45,036 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-19 05:33:45,036 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/root.txt
+[2013-11-19 05:33:45,232 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt' with 8eaf07884163653f66ec4fec3be0af58ce936bdc968305329e984b474330231c
+[2013-11-19 05:33:45,263 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:45,263 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:45,265 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt
+[2013-11-19 05:33:45,265 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/targets.txt.gz
+[2013-11-19 05:33:45,269 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt' with 519528ed88cde8f75b4419a775c0e54c1318089b7f3df1aed249ef6c562b3916
+[2013-11-19 05:33:45,300 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:45,300 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:45,301 UTC] [tuf.libtuf] [INFO][write_metadata_file:2749@libtuf.py] gzip compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt
+[2013-11-19 05:33:45,301 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-19 05:33:45,302 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.
+[2013-11-19 05:33:45,302 UTC] [tuf.libtuf] [INFO][generate_timestamp_metadata:2602@libtuf.py] Including fileinfo about /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/release.txt.gz
+[2013-11-19 05:33:45,302 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt' with a249c7914ae93436c73a7a8ce7147ec089fa1017f7c6bc756dc1c0c2017e852e
+[2013-11-19 05:33:45,332 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt
+[2013-11-19 05:33:45,332 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/laiwang/Documents/repository_tool/path/to/repository/metadata.staged/timestamp.txt

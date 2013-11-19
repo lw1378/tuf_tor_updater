@@ -1,0 +1,61 @@
+{
+ "signatures": [
+  {
+   "keyid": "8eaf07884163653f66ec4fec3be0af58ce936bdc968305329e984b474330231c", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "83c7317e601df8b7f13435e23cf9fab3f2ed314e39e7178a886fbca1572c76b2f6259b434e4c53edb95e34236e76ef2bdb6b056dc5bd104c20bb905cc70bf2403d2bd8599515157365fc1d7c4eed16ab500f956536657bd28712b4a457f4e6683dc646cd975b9ff05a075e0d205371c73181c6221ba19827b166474eb27b06c2ce0c7e3c5d08fe6a615f3baf338fb9823443460c5a610d35576eeb4b3fbf2e69de87186b8f17c2456100a0e3b95ae66260913256b4174ff62dd39a8dc2a5b1b002878c97104a4054569f52133d4b6cd89ef1c58e8437085790fc97106c7221edaf1320fd823d7f134998d3e08ded3f7c029b0f9e2f44be15a4c9450e1b0999cc6cbde6f4b45cff96b044831efd979f07f89343bbb950537449279dbdcf5ec7fc8d94d68fcf733b1964d269646d1d106bca46d3223955ea0fec7b18a36e76444b287db9dfbe26426410a2bb4f9a5573b96001f47182c424294d7ca05a6bef41b8b3e5cf87efad3fd9d2c26389acb8d06efd344e038d47e38f4c01e30f28eeda13"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "delegations": {
+   "keys": {
+    "c35253dbe7e707cb86d7445c6d19b337d44dd0d6a7c13302b06fb4f85c74f67f": {
+     "keytype": "rsa", 
+     "keyval": {
+      "private": "", 
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnwVeR0m6sOZ55/Sw07N4\nx+GGlL9iOAp1ms8X/MUx0wAZpLlc8sq/fgjai0e/AOdr302KMiRmvOQG2l+8Ve5w\nFZMi0znsdyZGKuAGwGiNU9tftM+fWQ4DLTh+SgrhOe+dL6IBek5Bbn1e2nyk0P20\n3qHDjCFwwX8gFctsH+ZyIPioegYB4+SmfnTICGpPZMIrRsR4k2ZZG2jXGQLwfnRr\nMYuOS+6NU8Pm8Qk2CiwoIHrCBBzY6e2VdwUe2kKBlXOpp+noOb9OZqMN6RQ/ngRU\nYFY4y+3JyddQwCh3tuKfxyTdQGg/Bha2BPy3TQez57bgEYaENDxE0K1iBJAqYtqc\nAQIDAQAB\n-----END PUBLIC KEY-----"
+     }
+    }
+   }, 
+   "roles": [
+    {
+     "keyids": [
+      "c35253dbe7e707cb86d7445c6d19b337d44dd0d6a7c13302b06fb4f85c74f67f"
+     ], 
+     "name": "targets/unclaimed", 
+     "paths": [], 
+     "threshold": 1
+    }
+   ]
+  }, 
+  "expires": "2014-02-18 13:00:36 UTC", 
+  "targets": {
+   "django/myfile.txt": {
+    "hashes": {
+     "sha256": "5617098f0ff86ebb947bb9b9c55842a9cbd6f73fe464ae93d9d1ab786c5d0aa7"
+    }, 
+    "length": 33
+   }, 
+   "django/myfile.txt~": {
+    "hashes": {
+     "sha256": "899e08f22584531d18a4ec45a5dd1daef683ea941daa8c95969f1fe5c08a8137"
+    }, 
+    "length": 6
+   }, 
+   "metainfo": {
+    "hashes": {
+     "sha256": "46d51951f9d9ed5c2b9c5d1b48d9e02d6deda18876c6662ccf437ec1608251b1"
+    }, 
+    "length": 747
+   }, 
+   "tor-browser-2.3.25-14_en-US.exe": {
+    "hashes": {
+     "sha256": "b18ff5ef64621fe4f8d2a33ff123af9b07e91a94c11c59268386855678f887da"
+    }, 
+    "length": 27948761
+   }
+  }, 
+  "version": 1
+ }
+}
