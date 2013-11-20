@@ -1,5 +1,0 @@
-cffi
-six
-
-[tests]
-pytest
