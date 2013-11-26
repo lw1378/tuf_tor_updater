@@ -5,6 +5,8 @@ Introduction
 Before using repository_operator.py, you should first install tuf-repository-tool.
 
 ```python
+  # see help log
+  $ python repository_operator.py --help
   # generate a new repo metadata and client, with -nd means 'no delegation'
   $ python repository_operator.py --generate_repository [-nd] dir_name
   # generate a new temp dir with dir_name, with -nd means 'no delegation'
