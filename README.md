@@ -24,7 +24,7 @@ Introduction
 * Then put all files and directories into repy_appsec
 * You should also install pip and tuf
 
-```python
+```
   $ sudo apt-get install pip
   $ pip install tuf
 ```
