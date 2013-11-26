@@ -15,7 +15,17 @@ Before using repository_operator.py, you should first install tuf-repository-too
   $ python repository_operator.py --update_repository [-nd] dir_name
 ```
 
-2. scripts
+2. writemetainfo.py
+---------------------------------
+Use writemetainfo.py to generate the metainfo of speicific file(s) in writemetainfo_dir directory.
+Without metainfo file, you cannot download an update with softwareupdater.py
+
+```python
+  $ python writemetainfo.py private_key_file_name public_key_file_name
+```
+
+
+3. scripts
 ---------------------------------
 when using this script, you should first modify this script so that it is your os directory's path.
 you should have your tuf platform and repy v1 platform so that you could run your code.
