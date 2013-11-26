@@ -27,4 +27,3 @@ you should have your tuf platform and repy v1 platform so that you could run you
   # test to download with softwareupdater.py
   $ . ./safe_download.sh
 ```
----------------------------------
