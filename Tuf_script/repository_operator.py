@@ -512,6 +512,9 @@ def refresh_timestamp_expire_data():
           if roles == 'targets.txt':
             os.remove(roles_path)
             continue
+          if roles == 'release.txt':
+            os.remove(roles_path)
+            continue
   except Exception, e:
     print 'Error,', str(e)
     sys.exit(0)
@@ -552,6 +555,9 @@ def refresh_release_expire_data():
             os.remove(roles_path)
             continue
           if roles == 'targets.txt':
+            os.remove(roles_path)
+            continue
+          if roles == 'release.txt':
             os.remove(roles_path)
             continue
   except Exception, e:
@@ -596,6 +602,9 @@ def refresh_targets_expire_data():
           if roles == 'targets.txt':
             os.remove(roles_path)
             continue
+          if roles == 'release.txt':
+            os.remove(roles_path)
+            continue
   except Exception, e:
     print 'Error,', str(e)
     sys.exit(0)
@@ -636,6 +645,9 @@ def refresh_root_expire_data():
             os.remove(roles_path)
             continue
           if roles == 'targets.txt':
+            os.remove(roles_path)
+            continue
+          if roles == 'release.txt':
             os.remove(roles_path)
             continue
   except Exception, e:
@@ -767,6 +779,9 @@ def generate_repository(basic_directory, flag):
             os.remove(roles_path)
             continue
           if roles == 'targets.txt':
+            os.remove(roles_path)
+            continue
+          if roles == 'release.txt':
             os.remove(roles_path)
             continue
   except Exception, e:
