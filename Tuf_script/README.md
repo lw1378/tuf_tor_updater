@@ -26,6 +26,12 @@ Before using repository_operator.py, you should first install tuf-repository-too
   $python repository_operator.py --update_repository -nd directory_name
   5. Update and refresh the timestamp role's expire date, syntax:
   $python repository_operator.py --refresh_timestamp
+  6. Update and refresh the release role's expire date, syntax:
+  $python repository_operator.py --refresh_release
+  7. Update and refresh the targets role's expire date, syntax:
+  $python repository_operator.py --refresh_targets
+  8. Update and refresh the root role's expire date, syntax:
+  $python repository_operator.py --refresh_root
   """
 
 ```
@@ -107,6 +113,7 @@ Before using repository_operator.py, you should first install tuf-repository-too
 ```
 
 * Now we have successfully update the expire date.
+* The same operation for the release, targets and root roles.
 
 2. writemetainfo.py
 ---------------------------------
