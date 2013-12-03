@@ -295,12 +295,15 @@ class Make_repository:
       sys.exit(0)
     if not os.path.exists(metadata_path):
       os.makedirs(metadata_path)
+    else:
+      shutil.rmtree(metadata_path)
+      os.makedirs(metadata_path)
 
     # Copy all files.
     self._copy_files(metadata_staged_path, metadata_path)
 
   def make_client_dir(self):
-    print '>>> Making client directory ...'
+    #print '>>> Making client directory ...'
     # Create Client
     base_path = os.path.dirname(__file__)
     client_path = os.path.join(base_path, "path/to/client")
@@ -385,6 +388,45 @@ def generate_metadata(basic_directory, flag):
 def refresh_timestamp_expire_data():
   mr = Make_repository()
   mr.load_timestamp()
+  mr.make_metadata_dir()
+  mr.make_client_dir()
+  rep_path = "path/to/repository/"
+
+  # Input server path
+  while True:
+    server_path = raw_input('Input Server path:')
+    if os.path.exists(server_path):
+      print 'Server path: ', server_path
+      break
+    else:
+      print 'Server path is either invalid or server path does not exist!'
+
+  copy_files(rep_path, server_path)
+  # Modify the server, remove the keys of root and targets roles
+  try:
+    server_fileList = os.listdir(server_path)
+    for files in server_fileList:
+      files_path = os.path.join(server_path, files)
+      if files == 'metadata.staged':
+        if os.path.isdir(files_path):
+          shutil.rmtree(files_path)
+          continue
+        os.remove(files_path)
+      if files == 'metadata' and os.path.isdir(files_path):
+        role_path = os.path.join(server_path, "metadata")
+        role_fileList = os.listdir(role_path)
+        for roles in role_fileList:
+          roles_path = os.path.join(role_path, roles)
+          if roles == 'root.txt':
+            os.remove(roles_path)
+            continue
+          if roles == 'targets.txt':
+            os.remove(roles_path)
+            continue
+  except Exception, e:
+    print 'Error,', str(e)
+    sys.exit(0)
+
 
 def update_metadata(basic_directory, flag):
   print '*** Hello ...'
