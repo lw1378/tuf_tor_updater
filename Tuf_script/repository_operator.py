@@ -2,8 +2,15 @@ import os
 import sys
 import shutil
 import tempfile
+import time
+from ast import literal_eval
 from writemetainfo import create_metainfo_file
 from tuf.libtuf import *
+from tuf.formats import parse_time
+from tuf.formats import format_time
+from tuf.formats import TimestampFile
+
+TIMESTAMP_EXPIRATION = 86400
 
 class Make_repository:
   def __init__(self):
@@ -64,7 +71,7 @@ class Make_repository:
     repository.release.load_signing_key(private_release_key)
     repository.timestamp.load_signing_key(private_timestamp_key)
     # Set the expiration date of the timestamp role.
-    repository.timestamp.expiration = "2014-10-28 12:08:00"
+    #repository.timestamp.expiration = "2014-10-28 12:08:00"
     #repository.targets.compressions = ["gz"]
     #repository.release.compressions = ["gz"]
 
@@ -160,6 +167,30 @@ class Make_repository:
     repository.timestamp.load_signing_key(private_timestamp_key)
 
     # Write the repository
+    try:
+      repository.write()
+    except tuf.Error, e:
+      print 'Failed to achieve the goal as ', str(e)
+
+  def load_timestamp(self):
+    # By default, the timestamp will expire in one day, so we have to load the signature again
+    repository = load_repository(self.repository_path)
+
+    private_release_key = import_rsa_privatekey_from_file("path/to/release_key", "lw1378")
+    repository.release.load_signing_key(private_release_key)
+    private_timestamp_key = import_rsa_privatekey_from_file("path/to/timestamp_key", "lw1378")
+    repository.timestamp.load_signing_key(private_timestamp_key)
+
+    # Load current time stamp
+    try:
+      timestamp_File = open("path/to/repository/metadata.staged/timestamp.txt", "r")
+      timestamp_dic = literal_eval(timestamp_File.read())
+      expire_time = parse_time(timestamp_dic['signed']['expires'])
+      repository.timestamp.expiration = str(format_time(expire_time + TIMESTAMP_EXPIRATION)).replace(" UTC", "")
+      #print format_time(expire_time + TIMESTAMP_EXPIRATION)
+    except Exception, e:
+      print 'Failed to update the expire date since', str(e)
+
     try:
       repository.write()
     except tuf.Error, e:
@@ -351,6 +382,10 @@ def generate_metadata(basic_directory, flag):
     mr.make_metadata_dir()
     mr.make_client_dir()
   print '*** Process complete ...'
+
+def refresh_timestamp_expire_data():
+  mr = Make_repository()
+  mr.load_timestamp()
 
 def update_metadata(basic_directory, flag):
   print '*** Hello ...'
@@ -661,6 +696,8 @@ def help_info():
   print '$python repository_operator.py --update_repository -nd directory_name'
   #print '6. Generate temp copy directory, syntax:'
   #print '$python repository_operator.py --generate_file_dir -nd directory_name'
+  print '5. Update and refresh the timestamp roles expire date, syntax:'
+  print '$python repository_operator.py --refresh_timestamp'
   print '"""'
 
 if __name__ == '__main__':
@@ -687,7 +724,9 @@ if __name__ == '__main__':
     else:
       print 'Illegal args! Use "--help" to get more info.'
   elif len(sys.argv) == 2:
-    if sys.argv[1] == '--help':
+    if sys.argv[1] == '--refresh_timestamp':
+      refresh_timestamp_expire_data()
+    elif sys.argv[1] == '--help':
       help_info()
       sys.exit(0)
     else: 
