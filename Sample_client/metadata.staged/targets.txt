@@ -1,0 +1,32 @@
+{
+ "signatures": [
+  {
+   "keyid": "d9a0cd2bd9c031f9c80605c9feab0cd0791d1c1c74389a4406f977e7cf2a1d56", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "85a4ef2288a8af0b4174f5a9eef6d062edeaa6609a1c3485f31f5eefbee9826eb7c5c3c659ea79ffb3e9cd6ca92af2927f159c86646263ca331d10fc558604e9fbce8b932d00aa64fabbba1a0529f869922d06f8b76adf149302927e3551aae19800066b41e1f65a8290b0c2cd29e50c62ebd9de85799936073a090887bc2be0758c976e637f04cd41d4c40d868124fddc6953ed47199df93e681ae5c1f5870417d94fbcbdb3bb91231a07c138611bf271152212c3c99f7d60363e2965fefd1366881dd786814881127cef39e9a5740c4647c739cb3b497c67765348d88c807c8e0b4078cf37c0bb992a3282274f035f46a314f70fe1c23b06ce70f10583c77d1a3030eaf05b96bfe16c9d1ce02f3e5f690f810e2ef321de3f7e6a46c55e7bfeabb6386537099c6f6c2a718629de8e443445eacd71a3dfc2172696db3233c33d6d0ed34e6f73afd6e02c1af70ecb2cbcc5a1ce62b0e5927bc4023ea39ebf41d4ba1f7f34dc156d6498075de3496ae06f01d3bff8fb437a42f1ba9bb699368f18"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "delegations": {
+   "keys": {}, 
+   "roles": []
+  }, 
+  "expires": "2014-03-04 13:21:27 UTC", 
+  "targets": {
+   "metainfo": {
+    "hashes": {
+     "sha256": "d1392de57329e3102cefda69c2dffaa1d7526ce0c010db279b5cdad67cbec4f3"
+    }, 
+    "length": 743
+   }, 
+   "tor-browser-2.3.25-14_en-US.exe": {
+    "hashes": {
+     "sha256": "90cb210cadabd598fafc4b10f3c350718da13ed396593f99a878f59d76ce328a"
+    }, 
+    "length": 8548
+   }
+  }, 
+  "version": 1
+ }
+}
