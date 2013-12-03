@@ -63,26 +63,53 @@ Before using repository_operator.py, you should first install tuf-repository-too
   
 ```
 
-Specific usage:
+* Update repository and the server metadata
 
 ```python
-  # 
+  # Here we also use "-nd" as an example
+  $ python repository_operator.py --update_repository -nd targets_files
+  *** Hello ...
+  Input Server path:
+  # Here we also need to input our server path
+  /home/laiwang/Documents/repy_tuf/client/
+  Server path:  /home/laiwang/Documents/repy_tuf/client/
+  # Here we also need to input the path of writemetainfo_dir
+  # And to input the path of private key and public key which are used to generate the
+  # metainfo of softwareupdater.py, but we do not need to input the client path
+  # since we just need to update the server and the client will handle that
+  *** Hello ...
+  Create directory  targets_files
+  Warning: 'tor-browser-2.3.25-14_en-US.exe' not in previous metainfo file!
+  Writing a metafile with updates to:
+  >>> Updating targets_files files ...
+  *** Hello ...
+  >>> updating target files ...
+  >>> Copying target files ...
+  >>> Adding target files ...
+  >>> Making client directory ...
+  >>> Updating /home/laiwang/Documents/repy_tuf/client/ files ...
+  
 ```
+* It is the same op when generate repository with delegation.
 
 2. writemetainfo.py
 ---------------------------------
 Use writemetainfo.py to generate the metainfo of speicific file(s) in writemetainfo_dir directory.
 Without metainfo file, you cannot download an update with softwareupdater.py
+Since the writemetainfo.py has been merged into the repository_operator.py, so we do not need to run this alone.
 
 ```python
-  $ python writemetainfo.py private_key_file_name public_key_file_name
-```
 
+  # python writemetainfo.py private_key_file_name public_key_file_name
+  $ python writemetainfo.py lw1378.privatekey lw1378.publickey
+  Warning: 'tor-browser-2.3.25-14_en-US.exe' not in previous metainfo file!
+  Writing a metafile with updates to:
+  
+```
 
 3. scripts
 ---------------------------------
-when using this script, you should first modify this script so that it is your os directory's path.
-you should have your tuf platform and repy v1 platform so that you could run your code.
+Before using scripts, the input path should be modified in scripts. 
 
 ```python
   # run the script
