@@ -8,7 +8,6 @@ from writemetainfo import create_metainfo_file
 from tuf.libtuf import *
 from tuf.formats import parse_time
 from tuf.formats import format_time
-from tuf.formats import TimestampFile
 
 TIMESTAMP_EXPIRATION = 86400
 
