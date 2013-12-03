@@ -24,6 +24,8 @@ Before using repository_operator.py, you should first install tuf-repository-too
   $python repository_operator.py --generate_repository -nd directory_name
   4. Generate new TUF repository for update without delegations, syntax:
   $python repository_operator.py --update_repository -nd directory_name
+  5. Update and refresh the timestamp role's expire date, syntax:
+  $python repository_operator.py --refresh_timestamp
   """
 
 ```
@@ -91,6 +93,20 @@ Before using repository_operator.py, you should first install tuf-repository-too
   
 ```
 * It is the same op when generate repository with delegation.
+* And for safe reason, the timestamp will expire only in one day, so before it expires, we should refresh the expire date by adding one day.
+
+```python
+
+  # Here just using --refresh_timestamp command
+  $ python repository_operator.py --refresh_timestamp
+  Input Server path:
+  # Here also we should input the server path.
+  Server path:  /home/laiwang/Documents/apache_Server/
+  >>> Updating /home/laiwang/Documents/apache_Server/ files ...
+
+```
+
+* Now we have successfully update the expire date.
 
 2. writemetainfo.py
 ---------------------------------
