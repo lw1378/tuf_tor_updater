@@ -65,8 +65,8 @@ class Make_repository:
     repository.timestamp.load_signing_key(private_timestamp_key)
     # Set the expiration date of the timestamp role.
     repository.timestamp.expiration = "2014-10-28 12:08:00"
-    repository.targets.compressions = ["gz"]
-    repository.release.compressions = ["gz"]
+    #repository.targets.compressions = ["gz"]
+    #repository.release.compressions = ["gz"]
 
     # Write the repository
     try:
@@ -456,7 +456,33 @@ def generate_repository(basic_directory, flag):
   generate_metadata(basic_directory, flag)
   # Update the client and server
   rep_path = os.path.join(base_path, "path/to/repository")
+
   copy_files(rep_path, server_path)
+  # Modify the server, remove the keys of root and targets roles
+  try:
+    server_fileList = os.listdir(server_path)
+    for files in server_fileList:
+      files_path = os.path.join(server_path, files)
+      if files == 'metadata.staged':
+        if os.path.isdir(files_path):
+          shutil.rmtree(files_path)
+          continue
+        os.remove(files_path)
+      if files == 'metadata' and os.path.isdir(files_path):
+        role_path = os.path.join(server_path, "metadata")
+        role_fileList = os.listdir(role_path)
+        for roles in role_fileList:
+          roles_path = os.path.join(role_path, roles)
+          if roles == 'root.txt':
+            os.remove(roles_path)
+            continue
+          if roles == 'targets.txt':
+            os.remove(roles_path)
+            continue
+  except Exception, e:
+    print 'Error,', str(e)
+    sys.exit(0)
+
   cli_path = os.path.join(base_path, "path/to/client")
   copy_files(cli_path, client_path)
 
@@ -522,6 +548,30 @@ def update_repository(basic_directory, flag):
   # Update the client and server
   rep_path = os.path.join(base_path, "path/to/repository")
   copy_files(rep_path, server_path)
+  # Modify the server, remove the keys of root and targets roles
+  try:
+    server_fileList = os.listdir(server_path)
+    for files in server_fileList:
+      files_path = os.path.join(server_path, files)
+      if files == 'metadata.staged':
+        if os.path.isdir(files_path):
+          shutil.rmtree(files_path)
+          continue
+        os.remove(files_path)
+      if files == 'metadata' and os.path.isdir(files_path):
+        role_path = os.path.join(server_path, "metadata")
+        role_fileList = os.listdir(role_path)
+        for roles in role_fileList:
+          roles_path = os.path.join(role_path, roles)
+          if roles == 'root.txt':
+            os.remove(roles_path)
+            continue
+          if roles == 'targets.txt':
+            os.remove(roles_path)
+            continue
+  except Exception, e:
+    print 'Error,', str(e)
+    sys.exit(0)
 
 def writemetainfo_dir2basic_dir(writemetainfo_dir_path, basic_directory, flag):
   # If we don't use delegation, then it would be easy for this step
